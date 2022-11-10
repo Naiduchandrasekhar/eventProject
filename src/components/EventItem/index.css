@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.images {
+  height: 200px;
+  width: 300px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.name {
+  font-family: 'Roboto';
+  color: #ffffffff;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.location {
+  margin-top: 0px;
+  font-family: 'Roboto';
+  color: #ffffffff;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.bgColor {
+  border: 3px solid #2dd4bf;
+  border-radius: 10px;
+}
